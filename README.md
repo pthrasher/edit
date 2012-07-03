@@ -56,12 +56,17 @@ var indent = [
 TODO:
 -----
 
+1. Write parser to parse .lang files found [here][1] and output them as compiled
+   syntax files.
 1. Finish renderer to render tokens as is.
 1. Rewrite tokenizer -- cut up into smaller functions, and optimize where
    possible.
 1. Handle more window events such as keypress, mouse click, hover, etc. do
    special tokenizing for urls and make them clickable within the editor.
 1. Do more experiementing... Make cool shit.
+
+[1]: http://www.gnu.org/software/src-highlite/lang_files/ "GNU Source Highlight lang files."
+
 
 Goals:
 ------
