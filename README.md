@@ -44,7 +44,7 @@ var indent = [
         1 // 1 denotes an increase in indentation on the following line(s)
     ], [
         /[^{]?}/gi,
-        -1 // -1 denotes an increase in indentation.
+        -1 // -1 denotes an decrease in indentation.
     ], [
         /(return|continue|break)/gi,
         -1
